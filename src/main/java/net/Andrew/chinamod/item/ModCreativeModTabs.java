@@ -22,6 +22,8 @@ public class ModCreativeModTabs {
 
             pOutput.accept(ModItems.COOKED_RICE.get());
 
+            pOutput.accept(ModItems.PINE_CONE.get());
+
             pOutput.accept(ModItems.RAW_SILK.get());
             pOutput.accept(ModItems.SILK.get());
 

@@ -2,6 +2,7 @@ package net.Andrew.chinamod.item;
 
 
 import net.Andrew.chinamod.ChinaMod;
+import net.Andrew.chinamod.item.custom.FuelItem;
 import net.Andrew.chinamod.item.custom.WaterDowserItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +25,8 @@ public class ModItems {
     public static final RegistryObject<Item> COOKED_RICE = ITEMS.register("cooked_rice",
     () -> new Item(new Item.Properties().food(ModFoods.COOKED_RICE)));
 
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+    () -> new FuelItem(new Item.Properties(), 100));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
