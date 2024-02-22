@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "count": 4,
+    "pattern":[
+        "###",
+        "###",
+        "###"
+    ],
+    "key":{
+        "#": {
+            "item": "minecraft:brick"
+        }
+    },
+    "result":{
+        "item": "chinamod:tile_road"
+    }
+}
