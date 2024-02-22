@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "chinamod:block/drum_skin",
+        "side": "chinamod:block/drum_side"
+    }
+}

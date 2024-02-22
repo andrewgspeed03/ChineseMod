@@ -3,6 +3,7 @@ package net.Andrew.chinamod.block;
 import java.util.function.Supplier;
 
 import net.Andrew.chinamod.ChinaMod;
+import net.Andrew.chinamod.block.custom.GuBlock;
 import net.Andrew.chinamod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -20,6 +21,8 @@ public class ModBlocks {
 
     //.m_308003_ is the copy method
     public static final RegistryObject<Block> TILE_ROAD = registerBlock("tile_road", () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.STONE_BRICKS)));
+
+    public static final RegistryObject<Block> GU_DRUM = registerBlock("gu_drum", () -> new GuBlock(BlockBehaviour.Properties.m_308003_(Blocks.CHEST)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

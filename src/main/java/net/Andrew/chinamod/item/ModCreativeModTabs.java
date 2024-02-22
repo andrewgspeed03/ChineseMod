@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
             pOutput.accept(ModItems.SILK.get());
 
             pOutput.accept(ModBlocks.TILE_ROAD.get());
+            pOutput.accept(ModBlocks.GU_DRUM.get());
 
             pOutput.accept(ModItems.WATER_DOWSER.get());
 
