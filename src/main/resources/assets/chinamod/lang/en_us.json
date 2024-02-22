@@ -1,3 +1,6 @@
 {
-    "item.chinamod.silk": "Silk"
+    "item.chinamod.silk": "Silk",
+    "item.chinamod.raw_silk": "Raw Silk",
+
+    "creativetab.china_tab": "China Tab"
 }

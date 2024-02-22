@@ -2,6 +2,7 @@ package net.Andrew.chinamod;
 
 import com.mojang.logging.LogUtils;
 
+import net.Andrew.chinamod.item.ModCreativeModTabs;
 import net.Andrew.chinamod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -45,6 +46,7 @@ public class ChinaMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModCreativeModTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
