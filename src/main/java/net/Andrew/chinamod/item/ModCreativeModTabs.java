@@ -19,10 +19,14 @@ public class ModCreativeModTabs {
      () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SILK.get()))
         .title(Component.translatable("creativetab.china_tab"))
         .displayItems((pParameters, pOutput) ->{
+
+            pOutput.accept(ModItems.COOKED_RICE.get());
+
             pOutput.accept(ModItems.RAW_SILK.get());
             pOutput.accept(ModItems.SILK.get());
 
             pOutput.accept(ModBlocks.TILE_ROAD.get());
+
         })
         .build());
 

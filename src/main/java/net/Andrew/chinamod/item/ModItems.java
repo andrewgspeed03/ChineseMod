@@ -18,6 +18,9 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_SILK = ITEMS.register("raw_silk",
     () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> COOKED_RICE = ITEMS.register("cooked_rice",
+    () -> new Item(new Item.Properties().food(ModFoods.COOKED_RICE)));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
