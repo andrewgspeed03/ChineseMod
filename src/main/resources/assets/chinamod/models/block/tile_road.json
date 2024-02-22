@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/cube_all",
-    "tectures": {
+    "textures": {
         "all": "chinamod:block/tile_road"
     }
 }
