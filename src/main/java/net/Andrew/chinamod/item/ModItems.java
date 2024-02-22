@@ -13,7 +13,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = 
     DeferredRegister.create(ForgeRegistries.ITEMS, ChinaMod.MODID);
 
-    public static final RegistryObject<Item> JIAN = ITEMS.register("jain",
+    public static final RegistryObject<Item> JIAN = ITEMS.register("jian",
     () -> new Item(new Item.Properties()));
 
 
