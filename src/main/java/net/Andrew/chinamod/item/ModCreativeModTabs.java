@@ -27,6 +27,8 @@ public class ModCreativeModTabs {
 
             pOutput.accept(ModBlocks.TILE_ROAD.get());
 
+            pOutput.accept(ModItems.WATER_DOWSER.get());
+
         })
         .build());
 

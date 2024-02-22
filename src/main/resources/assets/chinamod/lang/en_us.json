@@ -1,7 +1,9 @@
 {
     "item.chinamod.silk": "Silk",
     "item.chinamod.raw_silk": "Raw Silk",
-    "item.chinamod.cooked_rice" :"Cooked Rice",
+    "item.chinamod.cooked_rice": "Cooked Rice",
+
+    "item.chinamod.water_dowser": "Water Dowser",
 
     "block.chinamod.tile_road": "Tile Road",
 

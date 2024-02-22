@@ -2,6 +2,7 @@ package net.Andrew.chinamod.item;
 
 
 import net.Andrew.chinamod.ChinaMod;
+import net.Andrew.chinamod.item.custom.WaterDowserItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,9 +15,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> SILK = ITEMS.register("silk",
     () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> RAW_SILK = ITEMS.register("raw_silk",
     () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> WATER_DOWSER = ITEMS.register("water_dowser",
+    () -> new WaterDowserItem(new Item.Properties().durability(100)));
 
     public static final RegistryObject<Item> COOKED_RICE = ITEMS.register("cooked_rice",
     () -> new Item(new Item.Properties().food(ModFoods.COOKED_RICE)));
