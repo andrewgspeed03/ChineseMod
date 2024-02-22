@@ -18,6 +18,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = 
         DeferredRegister.create(ForgeRegistries.BLOCKS, ChinaMod.MODID);
 
+    //.m_308003_ is the copy method
     public static final RegistryObject<Block> TILE_ROAD = registerBlock("tile_road", () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.STONE_BRICKS)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
