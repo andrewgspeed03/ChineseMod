@@ -7,7 +7,10 @@
     "item.chinamod.water_dowser": "Water Dowser",
 
     "block.chinamod.tile_road": "Tile Road",
+
     "block.chinamod.gu_drum": "Gu Drum",
+
+    "tooltip.chinamod.water_dowser.tooltip": "Finds water underground",
 
     "creativetab.china_tab": "China Tab"
 }
