@@ -1,6 +1,7 @@
 package net.Andrew.chinamod.item;
 
 import net.Andrew.chinamod.ChinaMod;
+import net.Andrew.chinamod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,8 @@ public class ModCreativeModTabs {
         .displayItems((pParameters, pOutput) ->{
             pOutput.accept(ModItems.RAW_SILK.get());
             pOutput.accept(ModItems.SILK.get());
+
+            pOutput.accept(ModBlocks.TILE_ROAD.get());
         })
         .build());
 

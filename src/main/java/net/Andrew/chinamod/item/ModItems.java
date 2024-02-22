@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = 
-    DeferredRegister.create(ForgeRegistries.ITEMS, ChinaMod.MODID);
+        DeferredRegister.create(ForgeRegistries.ITEMS, ChinaMod.MODID);
 
     public static final RegistryObject<Item> SILK = ITEMS.register("silk",
     () -> new Item(new Item.Properties()));
