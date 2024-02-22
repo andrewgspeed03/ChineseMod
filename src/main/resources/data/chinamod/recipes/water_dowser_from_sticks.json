@@ -1,0 +1,17 @@
+{
+    "type": "Minecraft.crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " # ",
+        " # ",
+        "# #"
+    ],
+    "key":{
+        "#":{
+            "item": "minecraft:stick"
+        }
+    },
+    "result":{
+        "item": "chinamod:water_dowser"
+    }
+}
