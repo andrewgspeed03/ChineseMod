@@ -1,6 +1,5 @@
 package net.Andrew.chinamod.item;
 
-import org.antlr.v4.parse.ANTLRParser.finallyClause_return;
 
 import net.Andrew.chinamod.ChinaMod;
 import net.minecraft.world.item.Item;
@@ -13,7 +12,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = 
     DeferredRegister.create(ForgeRegistries.ITEMS, ChinaMod.MODID);
 
-    public static final RegistryObject<Item> JIAN = ITEMS.register("jian",
+    public static final RegistryObject<Item> SILK = ITEMS.register("silk",
     () -> new Item(new Item.Properties()));
 
 
