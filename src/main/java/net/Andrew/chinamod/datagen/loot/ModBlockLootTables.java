@@ -19,8 +19,9 @@ public class ModBlockLootTables extends BlockLootSubProvider{
     protected void generate() {
        this.dropSelf(ModBlocks.TILE_ROAD.get());
        this.dropSelf(ModBlocks.GU_DRUM.get());
+       this.dropSelf(ModBlocks.SILK_BLOCK.get());
     }
-    
+
     @Override
     protected Iterable<Block> getKnownBlocks() {
         return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;

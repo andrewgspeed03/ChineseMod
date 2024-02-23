@@ -17,10 +17,11 @@ public class ModBlockStateProvider extends BlockStateProvider{
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.TILE_ROAD);
-        //blockWithItem(ModBlocks.GU_DRUM);
+        blockWithItem(ModBlocks.SILK_BLOCK);
     }
     
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
+
 }

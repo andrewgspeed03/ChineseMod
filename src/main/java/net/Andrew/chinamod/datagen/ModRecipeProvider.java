@@ -11,10 +11,12 @@ import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.FireworkRocketItem.Shape;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.BlastingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -39,6 +41,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .pattern("###")
             .define('#', ItemTags.create(new ResourceLocation("minecraft:brick")))
             .unlockedBy(getHasName(ModItems.PINE_CONE.get()), has(ModItems.PINE_CONE.get()))
+            .save(pRecipeOutput);
+         
+         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TILE_ROAD.get())
+            .pattern("###")
+            .pattern("###")
+            .pattern("###")
+            .define('#', ModItems.SILK.get())
+            .unlockedBy(getHasName(ModItems.SILK.get()), has(ModItems.SILK.get()))
+            .save(pRecipeOutput);
+
+         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SILK.get(), 9)
+            .requires(ModBlocks.SILK_BLOCK.get())
+            .unlockedBy(getHasName(ModBlocks.SILK_BLOCK.get()), has(ModBlocks.SILK_BLOCK.get()))
             .save(pRecipeOutput);
     }
 
