@@ -9,8 +9,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockLootTables extends BlockLootSubProvider{
-
-    protected ModBlockLootTables() {
+    public ModBlockLootTables() {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags());
         
     }
@@ -21,10 +20,9 @@ public class ModBlockLootTables extends BlockLootSubProvider{
        this.dropSelf(ModBlocks.GU_DRUM.get());
        this.dropSelf(ModBlocks.SILK_BLOCK.get());
     }
-
+    
     @Override
     protected Iterable<Block> getKnownBlocks() {
         return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
     }
-
 }
