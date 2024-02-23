@@ -4,15 +4,14 @@
     "pattern": [
         "###",
         "###",
-        "   "
+        "###"
     ],
     "key": {
-        "#": {
-            "item": "chinamod:raw_silk"
+        "#":{
+            "item": "chinamod:silk"
         }
     },
-    "result": {
-        "item": "chinamod:silk",
-        "count": 3
+    "result":{
+        "item": "chinamod:silk_block"
     }
 }

@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
             pOutput.accept(ModItems.RAW_SILK.get());
             pOutput.accept(ModItems.SILK.get());
 
+            pOutput.accept(ModBlocks.SILK_BLOCK.get());
             pOutput.accept(ModBlocks.TILE_ROAD.get());
             pOutput.accept(ModBlocks.GU_DRUM.get());
 

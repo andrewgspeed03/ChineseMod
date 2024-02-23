@@ -1,7 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
     "category": "misc",
-    "count": 4,
     "pattern":[
         "###",
         "###",
@@ -13,6 +12,7 @@
         }
     },
     "result":{
-        "item": "chinamod:tile_road"
+        "item": "chinamod:tile_road",
+        "count": 4
     }
 }
