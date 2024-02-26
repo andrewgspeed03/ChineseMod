@@ -1,6 +1,6 @@
 {
     "parent" : "item/generated",
     "textures": {
-        "layer0": "chinamod:item/rawsilk"
+        "layer0": "chinamod:item/raw_silk"
     }
 }

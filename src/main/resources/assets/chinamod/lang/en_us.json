@@ -10,6 +10,17 @@
     "block.chinamod.tile_road": "Tile Road",
     "block.chinamod.gu_drum": "Gu Drum",
 
+    "block.chinamod.white_pine_plank": "White Pine Plank",
+    "block.chinamod.white_pine_stair": "White Pine Stairs",
+    "block.chinamod.white_pine_slab": "White Pine Slab",
+    "block.chinamod.white_pine_button": "White Pine Button",
+    "block.chinamod.white_pine_pressure_plate": "White Pine Pressure Plate",
+    "block.chinamod.white_pine_fence": "White Pine Fence",
+    "block.chinamod.white_pine_fence_gate": "White Pine Fence Gate",
+    "block.chinamod.white_pine_wall": "White Pine Wall",
+    "block.chinamod.white_pine_door": "White Pine Door",
+    "block.chinamod.white_pine_trap_door": "White Pine Trap Door",
+
     "tooltip.chinamod.water_dowser.tooltip": "Finds water underground",
 
     "creativetab.china_tab": "China Tab"

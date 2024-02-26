@@ -7,6 +7,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -30,6 +31,7 @@ public class ModCreativeModTabs {
             pOutput.accept(ModBlocks.SILK_BLOCK.get());
             pOutput.accept(ModBlocks.TILE_ROAD.get());
             pOutput.accept(ModBlocks.GU_DRUM.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_PLANK.get());
 
             pOutput.accept(ModItems.WATER_DOWSER.get());
 
