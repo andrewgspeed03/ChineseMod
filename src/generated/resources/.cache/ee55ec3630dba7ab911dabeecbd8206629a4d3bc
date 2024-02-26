@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-26T01:14:32.6618098	Item Models: chinamod
+// 1.20.4	2024-02-26T01:29:36.4638769	Item Models: chinamod
 272ad1d80e1112e43b85be82000ab66ef73a2955 assets/chinamod/models/item/cooked_rice.json
 f35e93601d17290d8a0afba079ab48c1f75619e3 assets/chinamod/models/item/pine_cone.json
 9e2e081a35c67ef7f662b76098dcb3a8a136802c assets/chinamod/models/item/raw_silk.json
@@ -7,4 +7,9 @@ dc5d9029086aa441b92ad6d1d1479c009593876e assets/chinamod/models/item/silk.json
 2ce0a1414489c5225e5cc6948f5df8d19d2dece3 assets/chinamod/models/item/white_pine_button.json
 4c750139c11750dcab628d7fe36a094349ca3e6b assets/chinamod/models/item/white_pine_door.json
 9923740909aa57177afdfbc95e07718fc569382f assets/chinamod/models/item/white_pine_fence.json
-444bbbf3354603cf2247f35f776ca26d2534025f assets/chinamod/models/item/white_pine_wall.json
+3efbc34145f0d8e22d96e50897c5fcfb718bc265 assets/chinamod/models/item/white_pine_fence_gate.json
+56746d59a8329130e3be7ffc7292c3820917f3a7 assets/chinamod/models/item/white_pine_pressure_plate.json
+6e5b8ba34ec69c82314fd83babb9f817bf38b8e9 assets/chinamod/models/item/white_pine_slab.json
+b696f3929fad94a7a02ef4cfc38be2b13f94ff64 assets/chinamod/models/item/white_pine_stairs.json
+50975ff830e72b194bc733f17110a5027838840d assets/chinamod/models/item/white_pine_trap_door.json
+1a2de9040d817ef7e884cd721433b8c0e08af40f assets/chinamod/models/item/white_pine_wall.json

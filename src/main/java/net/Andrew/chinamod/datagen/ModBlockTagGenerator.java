@@ -41,7 +41,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider{
             .add(ModBlocks.WHITE_PINE_FENCE.get());
         this.tag(BlockTags.FENCES)
             .add(ModBlocks.WHITE_PINE_FENCE_GATE.get());
-        this.tag(BlockTags.FENCES)
+        this.tag(BlockTags.WALLS)
             .add(ModBlocks.WHITE_PINE_WALL.get());
 
     }
