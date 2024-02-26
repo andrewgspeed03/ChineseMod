@@ -31,7 +31,17 @@ public class ModCreativeModTabs {
             pOutput.accept(ModBlocks.SILK_BLOCK.get());
             pOutput.accept(ModBlocks.TILE_ROAD.get());
             pOutput.accept(ModBlocks.GU_DRUM.get());
+
             pOutput.accept(ModBlocks.WHITE_PINE_PLANK.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_STAIRS.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_SLAB.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_FENCE.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_FENCE_GATE.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_WALL.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_BUTTON.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_PRESSURE_PLATE.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_DOOR.get());
+            pOutput.accept(ModBlocks.WHITE_PINE_TRAP_DOOR.get());
 
             pOutput.accept(ModItems.WATER_DOWSER.get());
 

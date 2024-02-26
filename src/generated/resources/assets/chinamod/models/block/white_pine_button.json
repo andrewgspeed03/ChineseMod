@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "chinamod:block/white_pine_plank"
+  }
+}

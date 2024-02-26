@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "chinamod:block/white_pine_plank",
+    "side": "chinamod:block/white_pine_plank",
+    "top": "chinamod:block/white_pine_plank"
+  }
+}

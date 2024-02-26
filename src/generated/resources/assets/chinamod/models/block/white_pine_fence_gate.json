@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate",
+  "textures": {
+    "texture": "chinamod:block/white_pine_plank"
+  }
+}

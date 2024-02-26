@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "chinamod:block/white_pine_plank"
+  }
+}

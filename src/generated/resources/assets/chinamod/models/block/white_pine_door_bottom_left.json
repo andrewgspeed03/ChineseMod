@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "render_type": "minecraft:cutour",
+  "textures": {
+    "bottom": "chinamod:block/white_pine_trap_door",
+    "top": "chinamod:block/white_pine_plank"
+  }
+}

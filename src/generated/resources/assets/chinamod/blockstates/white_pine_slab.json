@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chinamod:block/white_pine_slab"
+    },
+    "type=double": {
+      "model": "chinamod:block/white_pine_plank"
+    },
+    "type=top": {
+      "model": "chinamod:block/white_pine_slab_top"
+    }
+  }
+}

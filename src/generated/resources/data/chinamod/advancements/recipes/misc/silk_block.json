@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chinamod:silk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "chinamod:silk_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silk"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chinamod:silk_block"
+    ]
+  }
+}

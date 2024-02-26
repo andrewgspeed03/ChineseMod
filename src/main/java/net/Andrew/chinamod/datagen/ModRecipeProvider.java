@@ -43,7 +43,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .unlockedBy(getHasName(ModItems.PINE_CONE.get()), has(ModItems.PINE_CONE.get()))
             .save(pRecipeOutput);
          
-         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TILE_ROAD.get())
+         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SILK_BLOCK.get())
             .pattern("###")
             .pattern("###")
             .pattern("###")

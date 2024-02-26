@@ -28,7 +28,7 @@ public class GuBlock extends Block{
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand,
             BlockHitResult pHit) {
                 double random = 0.5 + Math.random() * (1 - 0.5);
-                pLevel.playSound(pPlayer, pPos,SoundEvents.NOTE_BLOCK_BASEDRUM.get(), SoundSource.BLOCKS,50f,(float)random);  
+                pLevel.playSound(pPlayer, pPos,SoundEvents.VILLAGER_DEATH, SoundSource.BLOCKS,50f,(float)random);  
                 
         return InteractionResult.SUCCESS;
     }

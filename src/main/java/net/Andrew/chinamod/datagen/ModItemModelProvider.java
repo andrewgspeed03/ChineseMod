@@ -56,9 +56,9 @@ public class ModItemModelProvider extends ItemModelProvider{
             .texture("texture", new ResourceLocation(ChinaMod.MODID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 
-    public ItemModelBuilder simpleBlockItem(RegistryObject<Block> item){
+    private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item){
         return withExistingParent(item.getId().getPath(),
             new ResourceLocation("item/generated")).texture("layer0",
-            new ResourceLocation(ChinaMod.MODID, "item/" + item.getId().getPath()));
+            new ResourceLocation(ChinaMod.MODID, "block/" + item.getId().getPath()));
     }
 }

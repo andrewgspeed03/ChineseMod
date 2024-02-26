@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chinamod:block/tile_road"
+    }
+  }
+}

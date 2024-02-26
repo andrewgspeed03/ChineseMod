@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "texture": "chinamod:block/white_pine_plank"
+  }
+}
