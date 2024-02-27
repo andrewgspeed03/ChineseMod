@@ -1,4 +1,7 @@
-// 1.20.4	2024-02-26T01:29:36.4663885	Block States: chinamod
+// 1.20.4	2024-02-26T21:01:39.1830259	Block States: chinamod
+625ef6864543d190c9eeaa7579fa4f80719c7915 assets/chinamod/blockstates/deepslate_jade_ore.json
+99f418cdf7c92fec5ff16bab4d2abb9c9610329a assets/chinamod/blockstates/jade_block.json
+e64f4fd4afb30817f553d2cc7ef6f3cafcb0c947 assets/chinamod/blockstates/jade_ore.json
 3c71890a41738e1577869fae4c5374b859291aef assets/chinamod/blockstates/silk_block.json
 e7a459fd0948cd30ee1c03bd901ed444527ce1b8 assets/chinamod/blockstates/tile_road.json
 dcbf5e788f47073679810953fa9c16d7212e1f3b assets/chinamod/blockstates/white_pine_button.json
@@ -11,6 +14,9 @@ ec2499d84a40230937c788987c9863116051a58d assets/chinamod/blockstates/white_pine_
 098f86c11c9eb88b08b5c4c76816f563ad4db59b assets/chinamod/blockstates/white_pine_stairs.json
 67b0aa60a70ffe51d142844710e965b85c150987 assets/chinamod/blockstates/white_pine_trap_door.json
 3e7978931d55178f518a83b4586e2da97ba2a9a5 assets/chinamod/blockstates/white_pine_wall.json
+561320f286628ba407c6c830c0b7f80f106c09c9 assets/chinamod/models/block/deepslate_jade_ore.json
+548eb68457a7e4bd683b1259584b28c65167c95d assets/chinamod/models/block/jade_block.json
+6967e07e79e160cf914531ec67af9b95d777e8e8 assets/chinamod/models/block/jade_ore.json
 4f5500099883f5a870d7c738651ec2843997669d assets/chinamod/models/block/silk_block.json
 4918583dcbb7d017ff90e8b6359e6500ea68d6a6 assets/chinamod/models/block/tile_road.json
 4538cebca2097aa565f415ffc9c07d166e4954c6 assets/chinamod/models/block/white_pine_button.json
@@ -43,6 +49,9 @@ b217fb56e7f91687cce486d2eb28cce45e18bb1d assets/chinamod/models/block/white_pine
 bed5d1b9f56834d637882ae9eb1c1f3b24c60c53 assets/chinamod/models/block/white_pine_wall_post.json
 525744c0893b0629296c7c02cecf2c1e0ce12d4f assets/chinamod/models/block/white_pine_wall_side.json
 a2ce528b3d5eb2794643e050c8dcd6e96a801b9c assets/chinamod/models/block/white_pine_wall_side_tall.json
+78d2d37befbeed2306b5875065f01062997eec9c assets/chinamod/models/item/deepslate_jade_ore.json
+4aa02046ff994250ac85d1495b8f266120aaea74 assets/chinamod/models/item/jade_block.json
+e452ad4eff6f9ebbe4f2003679dc016c91038801 assets/chinamod/models/item/jade_ore.json
 d1f68a2e6356ec1802b69c1e90881bbcdb1dc960 assets/chinamod/models/item/silk_block.json
 eeb0419fa8e6b08a2987ac6ca70329a06df026b0 assets/chinamod/models/item/tile_road.json
 044088b4438f488e28b02659c4b12b9af3c07d10 assets/chinamod/models/item/white_pine_plank.json

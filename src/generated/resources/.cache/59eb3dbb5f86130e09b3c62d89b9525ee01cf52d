@@ -1,5 +1,8 @@
-// 1.20.4	2024-02-26T01:10:39.2302623	Loot Tables
+// 1.20.4	2024-02-26T21:01:39.1780219	Loot Tables
+bd1c0511d52201e2e7ab0072c315f2c9569ce573 data/chinamod/loot_tables/blocks/deepslate_jade_ore.json
 73bd20d6a5f8cc535696084834e6d54b654d7df3 data/chinamod/loot_tables/blocks/gu_drum.json
+8e7599433aa3b1614d750853c1d0062a5bc4acf0 data/chinamod/loot_tables/blocks/jade_block.json
+f22ecba8e4d30b713e779ecc2a31c6b3731fd82a data/chinamod/loot_tables/blocks/jade_ore.json
 4f0e1b6534e66ea35bdccb77204d7b801269e452 data/chinamod/loot_tables/blocks/silk_block.json
 667b8e2d4959b9db90a6995a0be3c48ee1f263cf data/chinamod/loot_tables/blocks/tile_road.json
 bbd5a10121e62bca2188cefd0b31fe8f56c0787d data/chinamod/loot_tables/blocks/white_pine_button.json

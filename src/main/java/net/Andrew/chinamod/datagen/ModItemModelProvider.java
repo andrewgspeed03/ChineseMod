@@ -25,6 +25,8 @@ public class ModItemModelProvider extends ItemModelProvider{
 
         simpleItem(ModItems.PINE_CONE);
 
+        simpleItem(ModItems.JADE);
+
         simpleItem(ModItems.RAW_SILK);
         simpleItem(ModItems.SILK);
        
