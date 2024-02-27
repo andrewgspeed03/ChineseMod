@@ -1,5 +1,6 @@
-// 1.20.4	2024-02-26T21:01:39.1854224	Tags for minecraft:block mod id chinamod
+// 1.20.4	2024-02-27T01:18:18.0248043	Tags for minecraft:block mod id chinamod
 cb28339548a9f5c43f81c4715df14c62d24020ad data/chinamod/tags/blocks/metal_valuables.json
+7e233caa800cf7d3de7c287fbff31153f0473a35 data/chinamod/tags/blocks/needs_jade_tool.json
 230a5ed2e7db60e4065b800966538b658de6aa09 data/minecraft/tags/blocks/fences.json
 7e233caa800cf7d3de7c287fbff31153f0473a35 data/minecraft/tags/blocks/mineable/axe.json
 fd6e338bacb19d54e0f984dfa08bdd8c36e8e8bb data/minecraft/tags/blocks/mineable/pickaxe.json
