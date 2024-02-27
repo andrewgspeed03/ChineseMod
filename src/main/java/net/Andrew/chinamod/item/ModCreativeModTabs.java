@@ -13,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab>  CREATIVE_MODE_TABS=
-        DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ChinaMod.MODID);
+        DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ChinaMod.MOD_ID);
 
 
     public static final RegistryObject<CreativeModeTab> CHINA_TAB = CREATIVE_MODE_TABS.register("china_tab",
@@ -29,6 +29,12 @@ public class ModCreativeModTabs {
             pOutput.accept(ModBlocks.JADE_BLOCK.get());
             pOutput.accept(ModBlocks.JADE_ORE.get());
             pOutput.accept(ModBlocks.DEEPSLATE_JADE_ORE.get());
+
+            pOutput.accept(ModItems.JADE_JIAN.get());
+            pOutput.accept(ModItems.JADE_PICKAXE.get());
+            pOutput.accept(ModItems.JADE_AXE.get());
+            pOutput.accept(ModItems.JADE_SHOVEL.get());
+            pOutput.accept(ModItems.JADE_HOE.get());
 
             pOutput.accept(ModItems.RAW_SILK.get());
             pOutput.accept(ModItems.SILK.get());

@@ -16,7 +16,7 @@ public class ModItemTagGenerator extends ItemTagsProvider{
     public ModItemTagGenerator(PackOutput pOutput, CompletableFuture<Provider> pLookupProvider,
             CompletableFuture<TagLookup<Block>> pBlockTags,
             @Nullable ExistingFileHelper existingFileHelper) {
-        super(pOutput, pLookupProvider, pBlockTags, ChinaMod.MODID, existingFileHelper);
+        super(pOutput, pLookupProvider, pBlockTags, ChinaMod.MOD_ID, existingFileHelper);
         //TODO Auto-generated constructor stub
     }
 

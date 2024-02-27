@@ -21,7 +21,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = 
-        DeferredRegister.create(ForgeRegistries.BLOCKS, ChinaMod.MODID);
+        DeferredRegister.create(ForgeRegistries.BLOCKS, ChinaMod.MOD_ID);
 
     //.m_308003_ is the copy method
     public static final RegistryObject<Block> JADE_BLOCK = registerBlock("jade_block", () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.LAPIS_BLOCK)));

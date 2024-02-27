@@ -18,7 +18,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider{
 
     public ModBlockTagGenerator(PackOutput output, CompletableFuture<Provider> lookupProvider,
             @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, ChinaMod.MODID, existingFileHelper);
+        super(output, lookupProvider, ChinaMod.MOD_ID, existingFileHelper);
     }
 
     @Override
@@ -44,6 +44,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider{
             ModBlocks.DEEPSLATE_JADE_ORE.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        this.tag(ModTags.Blocks.NEEDS_JADE_TOOL)
+            .add(ModBlocks.GU_DRUM.get());
 
         this.tag(BlockTags.FENCES)
             .add(ModBlocks.WHITE_PINE_FENCE.get());

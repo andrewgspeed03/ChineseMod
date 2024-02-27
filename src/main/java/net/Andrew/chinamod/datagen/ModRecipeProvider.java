@@ -83,7 +83,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
          SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), pCategory, pResult, 
             pExperience, pCookingTime, pSerializer, p_312098_)
             .group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
-            .save(pRecipeOutput, ChinaMod.MODID + ":" + getItemName(pResult) + pSuffix + "_" + getItemName(itemlike));
+            .save(pRecipeOutput, ChinaMod.MOD_ID + ":" + getItemName(pResult) + pSuffix + "_" + getItemName(itemlike));
       }
 
    }
