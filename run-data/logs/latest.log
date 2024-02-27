@@ -1,27 +1,27 @@
-[26Feb2024 01:29:27.767] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 12, --assetsDir, C:\Users\aache\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, chinamod, --all, --output, D:\MinecraftMods\forge-1.20.4\src\generated\resources, --existing, D:\MinecraftMods\forge-1.20.4\src\main\resources]
-[26Feb2024 01:29:27.770] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.6+9-LTS-190
-[26Feb2024 01:29:27.771] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 17.0.6 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[26Feb2024 01:29:27.901] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[26Feb2024 01:29:28.010] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/aache/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
-[26Feb2024 01:29:28.669] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[26Feb2024 01:29:29.831] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\aache\.gradle\caches\forge_gradle\assets, --assetIndex, 12, --mod, chinamod, --all, --output, D:\MinecraftMods\forge-1.20.4\src\generated\resources, --existing, D:\MinecraftMods\forge-1.20.4\src\main\resources]
-[26Feb2024 01:29:35.144] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.0.30, for MC 1.20.4 with MCP 20231207.112700
-[26Feb2024 01:29:35.150] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.0.30 Initialized
-[26Feb2024 01:29:35.262] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[26Feb2024 01:29:35.619] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [chinamod]
-[26Feb2024 01:29:35.692] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/aache/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.30_mapped_parchment_2023.10.08-1.20.2/forge-1.20.4-49.0.30_mapped_parchment_2023.10.08-1.20.2-recomp.jar%2316!/assets/.mcassetsroot' uses unexpected schema
-[26Feb2024 01:29:35.693] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/aache/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.30_mapped_parchment_2023.10.08-1.20.2/forge-1.20.4-49.0.30_mapped_parchment_2023.10.08-1.20.2-recomp.jar%2316!/data/.mcassetsroot' uses unexpected schema
-[26Feb2024 01:29:36.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[26Feb2024 01:29:36.134] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 120 ms
-[26Feb2024 01:29:36.134] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[26Feb2024 01:29:36.180] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 46 ms
-[26Feb2024 01:29:36.180] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: chinamod
-[26Feb2024 01:29:36.416] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: chinamod finished after 235 ms
-[26Feb2024 01:29:36.417] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: chinamod
-[26Feb2024 01:29:36.424] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: chinamod finished after 7 ms
-[26Feb2024 01:29:36.425] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id chinamod
-[26Feb2024 01:29:36.458] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id chinamod finished after 32 ms
-[26Feb2024 01:29:36.458] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id chinamod
-[26Feb2024 01:29:36.460] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id chinamod finished after 1 ms
-[26Feb2024 01:29:36.460] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 448 ms
-[26Feb2024 01:29:36.476] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 86, old count: 81, new count: 87, removed stale: 0, written: 14
+[26Feb2024 01:34:18.404] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 12, --assetsDir, C:\Users\aache\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, chinamod, --all, --output, D:\MinecraftMods\forge-1.20.4\src\generated\resources, --existing, D:\MinecraftMods\forge-1.20.4\src\main\resources]
+[26Feb2024 01:34:18.407] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.6+9-LTS-190
+[26Feb2024 01:34:18.409] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 17.0.6 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[26Feb2024 01:34:18.517] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[26Feb2024 01:34:18.603] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/aache/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
+[26Feb2024 01:34:19.381] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[26Feb2024 01:34:20.635] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\aache\.gradle\caches\forge_gradle\assets, --assetIndex, 12, --mod, chinamod, --all, --output, D:\MinecraftMods\forge-1.20.4\src\generated\resources, --existing, D:\MinecraftMods\forge-1.20.4\src\main\resources]
+[26Feb2024 01:34:26.033] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.0.30, for MC 1.20.4 with MCP 20231207.112700
+[26Feb2024 01:34:26.040] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.0.30 Initialized
+[26Feb2024 01:34:26.180] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[26Feb2024 01:34:26.582] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [chinamod]
+[26Feb2024 01:34:26.663] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/aache/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.30_mapped_parchment_2023.10.08-1.20.2/forge-1.20.4-49.0.30_mapped_parchment_2023.10.08-1.20.2-recomp.jar%2316!/assets/.mcassetsroot' uses unexpected schema
+[26Feb2024 01:34:26.663] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/aache/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.30_mapped_parchment_2023.10.08-1.20.2/forge-1.20.4-49.0.30_mapped_parchment_2023.10.08-1.20.2-recomp.jar%2316!/data/.mcassetsroot' uses unexpected schema
+[26Feb2024 01:34:26.982] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[26Feb2024 01:34:27.143] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 158 ms
+[26Feb2024 01:34:27.143] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[26Feb2024 01:34:27.216] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 72 ms
+[26Feb2024 01:34:27.216] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: chinamod
+[26Feb2024 01:34:27.361] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: chinamod finished after 145 ms
+[26Feb2024 01:34:27.361] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: chinamod
+[26Feb2024 01:34:27.367] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: chinamod finished after 5 ms
+[26Feb2024 01:34:27.367] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id chinamod
+[26Feb2024 01:34:27.402] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id chinamod finished after 34 ms
+[26Feb2024 01:34:27.402] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id chinamod
+[26Feb2024 01:34:27.405] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id chinamod finished after 2 ms
+[26Feb2024 01:34:27.405] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 423 ms
+[26Feb2024 01:34:27.422] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 87, old count: 86, new count: 88, removed stale: 0, written: 2

@@ -25,6 +25,11 @@ public class ModCreativeModTabs {
 
             pOutput.accept(ModItems.PINE_CONE.get());
 
+            pOutput.accept(ModItems.JADE.get());
+            pOutput.accept(ModBlocks.JADE_BLOCK.get());
+            pOutput.accept(ModBlocks.JADE_ORE.get());
+            pOutput.accept(ModBlocks.DEEPSLATE_JADE_ORE.get());
+
             pOutput.accept(ModItems.RAW_SILK.get());
             pOutput.accept(ModItems.SILK.get());
 

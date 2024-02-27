@@ -6,6 +6,12 @@
 
     "item.chinamod.water_dowser": "Water Dowser",
 
+    "item.chinamod.jade": "Jade",
+    
+    "block.chinamod.jade_block": "Jade Block",
+    "block.chinamod.jade_ore": "Jade Ore",
+    "block.chinamod.deepslate_jade_ore": "Deepslate Jade Ore",
+
     "block.chinamod.silk_block": "Silk Block",
     "block.chinamod.tile_road": "Tile Road",
     "block.chinamod.gu_drum": "Gu Drum",

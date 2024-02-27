@@ -14,6 +14,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = 
         DeferredRegister.create(ForgeRegistries.ITEMS, ChinaMod.MODID);
 
+    public static final RegistryObject<Item> JADE = ITEMS.register("jade", () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> SILK = ITEMS.register("silk",
     () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SILK = ITEMS.register("raw_silk",
@@ -27,6 +29,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
     () -> new FuelItem(new Item.Properties(), 100));
+
+    //public static final RegistryObject<Item> JIAN_SWORD = ITEMS.register("jian_sword",
+    //() -> new SwordItem(new Item.Properties(), 100));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

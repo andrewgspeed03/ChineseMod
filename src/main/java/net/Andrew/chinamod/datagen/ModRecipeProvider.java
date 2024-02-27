@@ -34,7 +34,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
-       
+
+      ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.JADE_BLOCK.get())
+         .pattern("###")
+         .pattern("###")
+         .pattern("###")
+         .define('#', ModItems.JADE.get())
+         .unlockedBy(getHasName(ModItems.JADE.get()), has(ModItems.JADE.get()))
+         .save(pRecipeOutput);
+
+      ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.JADE.get(), 9)
+         .requires(ModBlocks.JADE_BLOCK.get())
+         .unlockedBy(getHasName(ModBlocks.JADE_BLOCK.get()), has(ModBlocks.JADE_BLOCK.get()))
+         .save(pRecipeOutput);
+         
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TILE_ROAD.get())
             .pattern("###")
             .pattern("###")
@@ -42,7 +55,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .define('#', ItemTags.create(new ResourceLocation("minecraft:brick")))
             .unlockedBy(getHasName(ModItems.PINE_CONE.get()), has(ModItems.PINE_CONE.get()))
             .save(pRecipeOutput);
-         
+        
          ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SILK_BLOCK.get())
             .pattern("###")
             .pattern("###")

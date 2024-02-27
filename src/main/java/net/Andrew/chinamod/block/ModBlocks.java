@@ -24,6 +24,10 @@ public class ModBlocks {
         DeferredRegister.create(ForgeRegistries.BLOCKS, ChinaMod.MODID);
 
     //.m_308003_ is the copy method
+    public static final RegistryObject<Block> JADE_BLOCK = registerBlock("jade_block", () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.LAPIS_BLOCK)));
+    public static final RegistryObject<Block> JADE_ORE = registerBlock("jade_ore", () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.LAPIS_ORE)));
+    public static final RegistryObject<Block> DEEPSLATE_JADE_ORE = registerBlock("deepslate_jade_ore", () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.DEEPSLATE_LAPIS_ORE)));
+
     public static final RegistryObject<Block> SILK_BLOCK = registerBlock("silk_block", () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.WHITE_WOOL)));
 
     public static final RegistryObject<Block> TILE_ROAD = registerBlock("tile_road", () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.STONE_BRICKS)));

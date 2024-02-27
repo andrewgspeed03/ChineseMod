@@ -26,7 +26,13 @@ public class ModBlockStateProvider extends BlockStateProvider{
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.TILE_ROAD);
+
+        blockWithItem(ModBlocks.JADE_BLOCK);
+        blockWithItem(ModBlocks.JADE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_JADE_ORE);
+
         blockWithItem(ModBlocks.SILK_BLOCK);
+
         blockWithItem(ModBlocks.WHITE_PINE_PLANK);
 
         stairsBlock((StairBlock) ModBlocks.WHITE_PINE_STAIRS.get(), blockTexture(ModBlocks.WHITE_PINE_PLANK.get()));
