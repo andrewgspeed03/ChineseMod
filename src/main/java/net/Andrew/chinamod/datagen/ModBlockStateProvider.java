@@ -45,7 +45,7 @@ public class ModBlockStateProvider extends BlockStateProvider{
         fenceGateBlock((FenceGateBlock) ModBlocks.WHITE_PINE_FENCE_GATE.get(), blockTexture(ModBlocks.WHITE_PINE_PLANK.get()));
         wallBlock((WallBlock) ModBlocks.WHITE_PINE_WALL.get(), blockTexture(ModBlocks.WHITE_PINE_PLANK.get()));
 
-        doorBlockWithRenderType((DoorBlock) ModBlocks.WHITE_PINE_DOOR.get(),modLoc("block/white_pine_plank"),modLoc("block/white_pine_trap_door"),"cutour");
+        doorBlockWithRenderType((DoorBlock) ModBlocks.WHITE_PINE_DOOR.get(),modLoc("block/white_pine_plank"),modLoc("block/white_pine_trap_door"),"cutout");
         trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.WHITE_PINE_TRAP_DOOR.get(), modLoc("block/white_pine_trap_door"),true, "cutout");
     }
     

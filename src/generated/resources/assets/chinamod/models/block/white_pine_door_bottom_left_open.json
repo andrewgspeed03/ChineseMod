@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/door_bottom_left_open",
-  "render_type": "minecraft:cutour",
+  "render_type": "minecraft:cutout",
   "textures": {
     "bottom": "chinamod:block/white_pine_plank",
     "top": "chinamod:block/white_pine_trap_door"
